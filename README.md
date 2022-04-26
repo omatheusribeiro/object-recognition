@@ -28,10 +28,6 @@
 - [ReactJs](https://pt-br.reactjs.org/)
 - [Tensorflow](https://pt-br.reactjs.org/)
 
-## Screenshot
-
-![screenshot](https://user-images.githubusercontent.com/48257781/164357614-380023e4-7307-4143-be15-d015076d80a5.png)
-
 ## Começo rápido
 
 1. Fork do projeto
