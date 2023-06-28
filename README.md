@@ -1,38 +1,95 @@
-<h1 align="center">
-  :robot: Reconhecimento de Objetos :robot:
-</h1>
+# Object Recognition System
 
-<div align="center">
+Este repositório contém um sistema de reconhecimento de objetos implementado utilizando TensorFlow em um projeto ReactJS.
 
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
-![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;
-![Tensorflow](https://img.shields.io/badge/-Tensorflow-05122A?style=flat&logo=tensorflow)&nbsp;
+## Descrição
 
-</div>
+O objetivo deste projeto é demonstrar a utilização da biblioteca TensorFlow para realizar o reconhecimento de objetos em imagens ou vídeos. TensorFlow é uma poderosa biblioteca de código aberto para aprendizado de máquina e deep learning, amplamente utilizada em tarefas como classificação de imagens e detecção de objetos.
 
-<table border="0">
-  <tr>
-    <td align="center">
-      Essa aplicação trata-se de um detector de objetos utilzando a biblicoteca Tensorflow. O Objetivo é trazer novos métodos de reconhecimento utilizando o JavaScript e agregar novos conhecimentos.
-    </td>
-    <td align="center">
-      Imagem ilustrativa do reconhecimento de objetos.
-      <img src="https://cdn.shortpixel.ai/spai/w_722+q_+ret_img+to_webp/https://iaexpert.academy/wp-content/uploads/2020/10/testes-pedestres.jpg" alt="Imagem demonstrativa de reconhecimento de objetos" />
-    </td>
-  </tr>
-</table>
+## Funcionalidades
 
-## Tecnologias usadas
+O sistema oferece as seguintes funcionalidades:
 
-- [ReactJs](https://pt-br.reactjs.org/)
-- [Tensorflow](https://pt-br.reactjs.org/)
+- Detecção de Objetos: Identifica e localiza objetos em imagens ou vídeos.
 
-## Começo rápido
+- Classificação: Prevê a classe ou rótulo dos objetos detectados, como "carro", "cachorro", "cadeira", etc.
 
-1. Fork do projeto
-2. Clonar o projeto utilizando `git clone git@github.com:<SEU-USUÁRIO>/object-recognition.git`
-3. Instalar as dependências `npm install`
-4. Rodar o projeto utilizando `npm start`
+- Processamento em Tempo Real: Realiza o reconhecimento de objetos em tempo real, permitindo aplicações interativas e dinâmicas.
 
-### Feito com :heart: para a incrível comunidade de open-source!
+- Interface de Usuário: O sistema fornece uma interface amigável construída com ReactJS, facilitando a interação e visualização dos resultados do reconhecimento de objetos.
+
+## Pré-requisitos
+
+Antes de executar o sistema, verifique se você possui o seguinte instalado:
+
+- Node.js (versão 12 ou superior).
+
+## Instalação
+
+- Clone este repositório em sua máquina local:
+
+```git
+git clone https://github.com/omatheusribeiro/object-recognition.git
+```
+
+- Acesse o diretório do projeto:
+
+```
+cd object-recognition
+```
+
+- Instale as dependências necessárias:
+
+```
+npm install
+```
+
+## Uso
+
+Após a conclusão da instalação, você pode executar o sistema da seguinte maneira:
+
+- Execute o seguinte comando para iniciar o servidor local:
+
+```
+npm start
+```
+
+- Abra seu navegador e acesse o seguinte endereço:
+
+```
+http://localhost:3000
+```
+
+- Na página do sistema, você poderá utilizar a câmera do seu dispositivo para realizar o reconhecimento de objetos.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga as etapas abaixo:
+
+1. Fork este repositório.
+2. Crie uma branch para a sua contribuição:
+
+```git
+git checkout -b minha-contribuicao
+```
+
+3. Faça as alterações desejadas e faça commit das mesmas:
+
+```git
+git commit -m "Minha contribuição"
+```
+
+4. Envie suas alterações para o seu fork:
+
+```git
+git push origin minha-contribuicao
+```
+5. Abra um Pull Request neste repositório.
+
+## Licença
+
+Este projeto está licenciado sob a BSD 3-Clause License.
+
+## Agradecimentos
+
+Agradecemos à biblioteca TensorFlow por sua contribuição para este projeto.
