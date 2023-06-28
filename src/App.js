@@ -50,40 +50,22 @@ function App() {
   useEffect(() => { runCoco() }, []);
 
   return (
-    <section className="App">
-      <div className="App-header">
+    <div>
         <Webcam
           ref={webcamRef}
           muted={true}
           style={{
-            position: "absolute",
-            marginLeft: "auto",
-            marginRight: "auto",
-            left: 0,
-            right: 0,
-            textAlign: "center",
-            zindex: 9,
-            width: 640,
-            height: 480,
+            borderRadius: 10
           }}
         />
 
         <canvas
           ref={canvasRef}
           style={{
-            position: "absolute",
-            marginLeft: "auto",
-            marginRight: "auto",
-            left: 0,
-            right: 0,
-            textAlign: "center",
-            zindex: 8,
-            width: 640,
-            height: 480,
+            right: 45
           }}
         />
-      </div>
-    </section>
+    </div>
   );
 }
 
