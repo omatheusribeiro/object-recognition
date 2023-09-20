@@ -1,95 +1,96 @@
 # Object Recognition System
 
-Este repositório contém um sistema de reconhecimento de objetos implementado utilizando TensorFlow em um projeto ReactJS.
+This repository contains an object recognition system implemented using TensorFlow in a ReactJS project.
 
-## Descrição
+## Description
 
-O objetivo deste projeto é demonstrar a utilização da biblioteca TensorFlow para realizar o reconhecimento de objetos em imagens ou vídeos. TensorFlow é uma poderosa biblioteca de código aberto para aprendizado de máquina e deep learning, amplamente utilizada em tarefas como classificação de imagens e detecção de objetos.
+The goal of this project is to demonstrate the usage of the TensorFlow library to perform object recognition in images or videos. TensorFlow is a powerful open-source library for machine learning and deep learning, widely used in tasks such as image classification and object detection.
 
-## Funcionalidades
+## Features
 
-O sistema oferece as seguintes funcionalidades:
+The system offers the following features:
 
-- Detecção de Objetos: Identifica e localiza objetos em imagens ou vídeos.
+- Object Detection: Identifies and locates objects in images or videos.
 
-- Classificação: Prevê a classe ou rótulo dos objetos detectados, como "carro", "cachorro", "cadeira", etc.
+- Classification: Predicts the class or label of the detected objects, such as "car," "dog," "chair," etc.
 
-- Processamento em Tempo Real: Realiza o reconhecimento de objetos em tempo real, permitindo aplicações interativas e dinâmicas.
+- Real-Time Processing: Performs object recognition in real-time, enabling interactive and dynamic applications.
 
-- Interface de Usuário: O sistema fornece uma interface amigável construída com ReactJS, facilitando a interação e visualização dos resultados do reconhecimento de objetos.
+- User Interface: The system provides a user-friendly interface built with ReactJS, making it easy to interact with and visualize the results of object recognition.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de executar o sistema, verifique se você possui o seguinte instalado:
+Before running the system, make sure you have the following installed:
 
-- Node.js (versão 12 ou superior).
+- Node.js (version 12 or higher).
 
-## Instalação
+## Installation
 
-- Clone este repositório em sua máquina local:
+- Clone this repository to your local machine:
 
 ```git
 git clone https://github.com/omatheusribeiro/object-recognition.git
 ```
 
-- Acesse o diretório do projeto:
+- Navigate to the project directory:
 
 ```
 cd object-recognition
 ```
 
-- Instale as dependências necessárias:
+- Install the necessary dependencies:
 
 ```
 npm install
 ```
 
-## Uso
+## Usage
 
-Após a conclusão da instalação, você pode executar o sistema da seguinte maneira:
+After the installation is complete, you can run the system as follows:
 
-- Execute o seguinte comando para iniciar o servidor local:
+- Execute the following command to start the local server:
 
 ```
 npm start
 ```
 
-- Abra seu navegador e acesse o seguinte endereço:
+- Open your browser and access the following address:
 
 ```
 http://localhost:3000
 ```
 
-- Na página do sistema, você poderá utilizar a câmera do seu dispositivo para realizar o reconhecimento de objetos.
+- On the system's page, you can use your device's camera to perform object recognition.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga as etapas abaixo:
+Contributions are welcome! If you wish to contribute to this project, follow the steps below:
 
-1. Fork este repositório.
-2. Crie uma branch para a sua contribuição:
-
-```git
-git checkout -b minha-contribuicao
-```
-
-3. Faça as alterações desejadas e faça commit das mesmas:
+1. Fork this repository.
+2. Create a branch for your contribution:
 
 ```git
-git commit -m "Minha contribuição"
+git checkout -b my-contribution
 ```
 
-4. Envie suas alterações para o seu fork:
+3. Make the desired changes and commit them:
 
 ```git
-git push origin minha-contribuicao
+git commit -m "My contribution"
 ```
-5. Abra um Pull Request neste repositório.
 
-## Licença
+4. Push your changes to your fork:
 
-Este projeto está licenciado sob a BSD 3-Clause License.
+```git
+git push origin my-contribution
+```
 
-## Agradecimentos
+5. Open a Pull Request in this repository.
 
-Agradecemos à biblioteca TensorFlow por sua contribuição para este projeto.
+## License
+
+This project is licensed under the BSD 3-Clause License.
+
+## Acknowledgments
+
+We thank the TensorFlow library for its contribution to this project.
