@@ -1,7 +1,7 @@
 # 🤖 Object Recognition
 
 ## 📌 Overview
-The **Object Recognition** project is a powerful system designed to detect objects, using the **tensorflow** library. 🚀
+The **Object Recognition** project is a powerful system designed to detect objects, using the **TensorFlow** library. 🚀
 
 This repository contains an implementation of:
 
@@ -26,7 +26,6 @@ object-recognition
 ### 📋 Prerequisites
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16+ recommended)
-- [Angular CLI](https://angular.io/cli) (latest version)
 
 ### 🔧 Installation
 ```sh
