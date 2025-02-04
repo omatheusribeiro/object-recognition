@@ -1,8 +1,11 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useCallback } from "react";
 import * as cocossd from "@tensorflow-models/coco-ssd";
 import Webcam from "react-webcam";
 import "./App.css";
 import { drawRect } from "./utilities";
+import * as tf from "@tensorflow/tfjs";
+import "@tensorflow/tfjs-backend-cpu";
+import "@tensorflow/tfjs-backend-webgl";
 
 function App() {
   const title = document.querySelector('h1');
@@ -11,13 +14,13 @@ function App() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
 
-  const runCoco = async () => {
+  const runCoco = useCallback(async () => {
     const net = await cocossd.load();
 
     setInterval(() => {
       detect(net);
     }, 10);
-  };
+  }, []);
 
   const detect = async (net) => {
     if (
@@ -44,7 +47,7 @@ function App() {
     }
   };
 
-  useEffect(() => { runCoco() }, []);
+  useEffect(() => { runCoco() }, [runCoco]);
 
   return (
     <div>
