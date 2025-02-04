@@ -1,96 +1,59 @@
-# Object Recognition System
+# 🤖 Object Recognition
 
-This repository contains an object recognition system implemented using TensorFlow in a ReactJS project.
+## 📌 Overview
+The **Object Recognition** project is a powerful system designed to detect objects, using the **tensorflow** library. 🚀
 
-## Description
+This repository contains an implementation of:
 
-The goal of this project is to demonstrate the usage of the TensorFlow library to perform object recognition in images or videos. TensorFlow is a powerful open-source library for machine learning and deep learning, widely used in tasks such as image classification and object detection.
+✅ **FObject Recognition** 😊😡😢  
 
-## Features
+## 📝 Description
+The objective of this project is to demonstrate the use of the **TensorFlow** library to perform object recognition. **TensorFlow** is an open source library that has several real-time detection functionalities.
 
-The system offers the following features:
+## 🏗️ Project Structure
+```
+object-recognition
+├── public/
+│   └── index.html      
+├── src/
+│   └── App.js   
+│   └── index.js    
+│   └── utilities.js       
+```
 
-- Object Detection: Identifies and locates objects in images or videos.
+## 🚀 Getting Started
 
-- Classification: Predicts the class or label of the detected objects, such as "car," "dog," "chair," etc.
+### 📋 Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [Angular CLI](https://angular.io/cli) (latest version)
 
-- Real-Time Processing: Performs object recognition in real-time, enabling interactive and dynamic applications.
-
-- User Interface: The system provides a user-friendly interface built with ReactJS, making it easy to interact with and visualize the results of object recognition.
-
-## Prerequisites
-
-Before running the system, make sure you have the following installed:
-
-- Node.js (version 12 or higher).
-
-## Installation
-
-- Clone this repository to your local machine:
-
-```git
+### 🔧 Installation
+```sh
 git clone https://github.com/omatheusribeiro/object-recognition.git
 ```
-
-- Navigate to the project directory:
-
-```
+```sh
 cd object-recognition
 ```
-
-- Install the necessary dependencies:
-
-```
+```sh
+# Install dependencies
 npm install
 ```
 
-## Usage
-
-After the installation is complete, you can run the system as follows:
-
-- Execute the following command to start the local server:
-
-```
+### ▶️ Running the Project
+```sh
 npm start
 ```
+Then open your browser and go to: **http://localhost:3000/** 🚀
 
-- Open your browser and access the following address:
+## 🛠️ Technologies Used
+- **React**
+- **TensorFlow.js**
+- **TypeScript**
+- **HTML & CSS**
 
-```
-http://localhost:3000
-```
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the project and submit pull requests.
 
-- On the system's page, you can use your device's camera to perform object recognition.
-
-## Contribution
-
-Contributions are welcome! If you wish to contribute to this project, follow the steps below:
-
-1. Fork this repository.
-2. Create a branch for your contribution:
-
-```git
-git checkout -b my-contribution
-```
-
-3. Make the desired changes and commit them:
-
-```git
-git commit -m "My contribution"
-```
-
-4. Push your changes to your fork:
-
-```git
-git push origin my-contribution
-```
-
-5. Open a Pull Request in this repository.
-
-## License
-
+## 📜 License
 This project is licensed under the BSD 3-Clause License.
-
-## Acknowledgments
-
-We thank the TensorFlow library for its contribution to this project.
