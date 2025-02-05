@@ -5,7 +5,7 @@ The **Object Recognition** project is a powerful system designed to detect objec
 
 This repository contains an implementation of:
 
-✅ **FObject Recognition** 😊😡😢  
+✅ **Object Recognition** 😊😡😢  
 
 ## 📝 Description
 The objective of this project is to demonstrate the use of the **TensorFlow** library to perform object recognition. **TensorFlow** is an open source library that has several real-time detection functionalities.
