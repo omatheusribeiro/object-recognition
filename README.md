@@ -41,6 +41,7 @@ npm install
 
 ### ▶️ Running the Project
 ```sh
+$env:NODE_OPTIONS="--openssl-legacy-provider"
 npm start
 ```
 Then open your browser and go to: **http://localhost:3000/** 🚀
