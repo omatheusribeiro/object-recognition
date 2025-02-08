@@ -52,8 +52,5 @@ Then open your browser and go to: **http://localhost:3000/** 🚀
 - **TypeScript**
 - **HTML & CSS**
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork the project and submit pull requests.
-
 ## 📜 License
 This project is licensed under the BSD 3-Clause License.
