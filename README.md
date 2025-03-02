@@ -1,7 +1,7 @@
 # 🤖 Object Recognition
 
 ## 📌 Overview
-The **Object Recognition** project is a powerful system designed to detect objects, using the **TensorFlow** library. 🚀
+The **Object Recognition** project is a powerful system designed to detect objects, using the **TensorFlow** library. 🚀 
 
 This repository contains an implementation of:
 
